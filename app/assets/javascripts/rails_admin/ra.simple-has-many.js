@@ -14,7 +14,6 @@
       this._build();
       this._buildCache();
       this._bindEvents();
-    },
 
     _build: function() {
       var i;
@@ -112,6 +111,9 @@
               },
               error: function() {
                 alert("Error: Could not delete dimension, please try again")
+              },
+              dataFilter:function(data, type ) {
+                return '{}';
               }
           });
 
