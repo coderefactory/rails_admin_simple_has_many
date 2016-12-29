@@ -14,7 +14,8 @@
       this._build();
       this._buildCache();
       this._bindEvents();
-
+    },
+    
     _build: function() {
       var i;
 
