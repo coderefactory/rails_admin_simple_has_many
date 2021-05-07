@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency 'rails', ['>= 4.0', '< 6']
-  s.add_dependency 'js-routes', '~> 1.2', '>= 1.2.4'
+  s.add_dependency 'js-routes', '1.4.3'
 
 end
